@@ -8,4 +8,3 @@ export MATTERMOST_TLS_VERIFY=false
 export MATTERMOST_USER=seccong@example.com
 export MATTERMOST_LOG_LEVEL=debug
 export CHAT_SERVER_URL=http://localhost:5000/api
-#export CHAT_SERVER_URL=http://localhost:8064/api

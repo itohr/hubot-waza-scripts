@@ -16,6 +16,9 @@ module.exports = (robot) ->
     robot.logger.info "email: #{email}"
 
     request = require('request')
+
+    # TODO: We need smarter method to generate json data from user data
+    # rather than using hard coded data.
     request.post
       url: url
       json:
